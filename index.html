@@ -2,5 +2,12 @@
 layout: default
 title: Home Page
 ---
-<h1>{{site.title}}</h1>
-{% include callout.html %}
+
+{% include topbar.html %}
+<div id="pubs">
+	
+	{% for each pub in site.data.pub %}
+{{pub.name}}
+
+{% endfor %}
+</div>
