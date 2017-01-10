@@ -2,12 +2,15 @@
 layout: default
 title: Home Page
 ---
-
 {% include topbar.html %}
-<div id="pubs">
+<div id="pubs" class="row clearfix">
 	
-	{% for each pub in site.data.pub %}
-{{pub.name}}
-
-{% endfor %}
+	{% for pub in site.data.pubbys %}
+		<div class="medium-4 columns text-center">
+			<img src="assets/vr-publishers/{{pub.img}}" alt="{{pub.name}}" title="{{pub.name}}">
+			<h4>{{pub.name}}</h4>
+			<p class="type">{{pub.type}}</p>
+		</div>
+		
+	{% endfor %}
 </div>
