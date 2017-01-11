@@ -12,6 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   A starter kit for prototyping UI animations with Jekyll, Foundation 6, HAML.
 baseurl: "/vr-publishers" # the subpath of your site, e.g. /blog
 url: "http://lab27.github.io/vr-publishers" # the base hostname & protocol for your site
+github.url: "http://lab27.github.ui/vr-publishers"
 twitter_username: flavrcrystals
 github_username:  lab27
 
