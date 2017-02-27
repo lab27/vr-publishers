@@ -12,8 +12,8 @@ const cssFiles = '_css/**/*.?(s)css';
 gulp.task('css', () => {
   gulp.src(cssFiles)
     .pipe(sass({includePaths: ['./_sass']}))
-    //.pipe(sass())
-    .pipe(concat('all.css'))
+    .pipe(sass())
+    .pipe(concat('main.css'))
     .pipe(gulp.dest('css'));
 });
 

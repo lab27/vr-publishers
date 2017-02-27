@@ -6,7 +6,24 @@
 @include foundation-everything;
 @import 'topbar';
 
-.callout {
-  margin: 6px;
+
+.top-bar {
+  margin-bottom: 44px;
 }
 
+body {
+  background: lime;
+}
+
+
+main {
+  color: $talk-dark;
+
+
+}
+  h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+  }

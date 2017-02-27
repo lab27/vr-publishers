@@ -3524,5 +3524,17 @@ table.hover tr:nth-of-type(even):hover {
     .venues-show .top-bar.success .top-bar-left #mobile-logo a:after {
       border-color: white transparent transparent; }
 
-.callout {
-  margin: 6px; }
+.top-bar {
+  margin-bottom: 44px; }
+
+body {
+  background: lime; }
+
+main {
+  color: #29292b; }
+
+h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  letter-spacing: .05rem;
+  text-transform: uppercase; }

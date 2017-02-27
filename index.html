@@ -3,14 +3,23 @@ layout: default
 title: Home Page
 ---
 {% include topbar.html %}
+
+<h1 class="text-center">Publishers on Voice Republic</h1>
+<div class="row clearfix">
+	<div class="medium-8 medium-offset-2 columns text-center">
+
+		<form class="" action="index.html" method="post">
+			<input type="text" name="" value="" placeholder="find">
+		</form>
+	</div>
+</div>
 <div id="pubs" class="row clearfix">
-	
+
 	{% for pub in site.data.pubbys %}
-		<div class="medium-4 columns text-center">
-			<img src="assets/vr-publishers/{{pub.img}}" alt="{{pub.name}}" title="{{pub.name}}">
+		<div class="medium-4 columns text-center" style="min-height: 30vw">
+			<img src="assets/vr-publishers/{{pub.img}}" alt="{{pub.name}}" title="{{pub.name}}" width="100px">
 			<h4>{{pub.name}}</h4>
 			<p class="type">{{pub.type}}</p>
 		</div>
-		
 	{% endfor %}
 </div>
